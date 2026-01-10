@@ -1,0 +1,38 @@
+.productbox {
+  min-height: 200px;
+  display: grid;
+  place-items: center;
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #ddd;
+  border-top-color: #ff6d1f;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+  width: 100%;
+}
+
+.product {
+  border: 1px solid #eee;
+  padding: 10px;
+  text-align: center;
+}
+.product img {
+  max-width: 100%;
+  height: 120px;
+  object-fit: contain;
+}
