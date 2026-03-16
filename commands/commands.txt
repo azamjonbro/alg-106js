@@ -1,0 +1,21 @@
+cd -> change directory
+cd desktop -> desktopga kir
+cd file -> filega kir
+cd .. -> filedan chiq
+
+mkdir -> make directory
+nano -> file create
+dir -> directory review
+pwd -> sizni qaysi fileda yoki papkada turganizzi korsatadi
+rm -> remove
+rm -rf -> remove file or folder
+code . -> shu fileni vscodeda yoki boshqa matn muharririda ocish aytiladi.
+
+install-> yuklash
+npm install -> npmdan yuklash
+
+package.json -> bu butun react file ichidagi bor kutubxonalar yoki ishlash sistemasi litsenziyasi va boshqa malumotlarni o'zida saqlab turuvchi json hisoblanadi.
+
+scripts ->bu codelar ishga tushishi uchun yoki qandaydir amal bajarish uchun yoziladigan commands template hisoblanadi.
+
+dependencies-> bu esa o'zida qaysi kutubxona ishlatilayotgani va uni qaysi versiyada ekanini anglatadi.
